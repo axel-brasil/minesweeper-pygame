@@ -81,7 +81,7 @@ def handle_click(board, revealed, bombs, x, y):
     grid_x, grid_y = x // TILE_SIZE, y // TILE_SIZE
     if board[grid_y][grid_x] == '*':
         bombs[grid_y][grid_x] = True
-        print("BOMBA at:", grid_x, grid_y)
+        print("BOMB at:", grid_x, grid_y)
     else:
         if board[grid_y][grid_x] == '0':
             reveal_zone(board, grid_x, grid_y, revealed)
