@@ -12,7 +12,7 @@ FONT_SIZE = 32
 
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Campo Minato")
+pygame.display.set_caption("Minesweeper")
 clock = pygame.time.Clock()
 font = pygame.font.Font('freesansbold.ttf', FONT_SIZE)
 
